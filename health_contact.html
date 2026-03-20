@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contáctenos</title>
+  <link rel="stylesheet" href="./health_analysis.css">
+  <style>
+    body{
+        text-align: center;
+    }
+    /* Algunos estilos básicos para fines de demostración */
+    #contactForm {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    #contactForm input,
+    #contactForm textarea {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 8px;
+    }
+    #contactForm button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    #contactForm button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <nav><h1>Censo de Análisis de Salud</h1>
+    <ul>
+      <li><a href="./index.html" id="home">Inicio </a></li>
+      <li><a href="./health_contact.html" id="contact">Contáctenos </a></li>
+      </li>
+
+    </ul>
+    </nav>
+  <h1>Contáctenos</h1>
+  <p>No dude en contactarnos para saber más sobre sus condiciones y métodos de tratamiento.</p>
+
+  <form id="contactForm">
+    <div>
+      <label for="name">Nombre</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+      <label for="email">Correo electrónico</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="condition">Condición</label>
+      <input type="text" id="condition" name="condition" required>
+    </div>
+    <div>
+      <label for="message">Mensaje</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+    <button type="submit" onclick="thankyou()">Enviar</button>
+  </form>
+  <script>
+    function thankyou(){
+        alert('¡Gracias por contactarnos!')
+    }
+  </script>
+</body>
+</html>

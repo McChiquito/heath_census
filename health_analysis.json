@@ -1,7 +1,7 @@
 {
     "conditions": [
       {
-        "name": "Thyroid",
+        "name": "Tiroides",
         "imagesrc":"thyroid.jpg",
         "symptoms": [
           "Fatigue",
@@ -35,7 +35,7 @@
         "treatment": "Management includes medication, insulin therapy, and lifestyle changes."
       },
       {
-        "name": "High Blood Pressure",
+        "name": "Presion arterial alta",
         "imagesrc":"blood_pressure.jpg",
         "symptoms": [
           "Headaches",
